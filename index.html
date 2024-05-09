@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML CLASS</title>
+    <style>
+      table{
+        border-collapse: collapse;
+      }
+      th, td{
+        border: 1px solid blue;
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
     <!-- This is a comment in HTML -->
@@ -60,7 +69,7 @@
     <!-- paragraph tag -->
 
     <!-- List -->
-    <h3>Two type of Lists in HTNL:</h3>
+    <h3>Two type of Lists in HTML:</h3>
     <span>Unordered List</span>
     <span>and</span>
     <span>Ordered List</span>
@@ -101,8 +110,164 @@
     <h3>Image Element</h3>
     <img src="./assets/images/flower-1.jpeg" alt="flower one" />
     <img src="./assets/images/flower-2.jpeg" alt="flower two" />
-    <img src="./assets/images/flower-3.jpeg" alt="flower three" />
+    <!-- <img src="./assets/images/flower-3.jpeg" alt="flower three" />
     <img src="./assets/images/flower-4.jpeg" alt="flower four" />
+    <img src="./assets/images/flower-4.jpeg" alt="this green flower" /> -->
     <!-- image element/tag -->
+
+    <!-- form -->
+    <h3>Form elements</h3>
+    <form>
+      <div>
+        <input type="text" placeholder="Enter firstname" />
+      </div>
+      <div>
+        <input type="text" placeholder="Enter lastname" />
+      </div>
+      <div>
+        <input type="text" placeholder="Enter username" />
+      </div>
+      <div>
+        <input type="email" placeholder="Enter your email address" />
+      </div>
+      <div>
+        <input type="password" placeholder="Enter password" />
+      </div>
+
+      <div>
+        <input type="date" />
+      </div>
+
+      <div>
+        <input type="tel" placeholder="Enter phone number" />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label for="">Male</label>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label for="">Female</label>
+      </div>
+
+      <div>
+        <h3>Select your courses below</h3>
+        <div>
+          <input type="radio" />
+          <label for="">FullStack development</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Frontend Engineering</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Backend Engineering</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Cybersecurity</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">DevOps</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Product Design</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Product Manager</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Data Analysis</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Quality Assurance</label>
+        </div>
+        <div>
+          <input type="radio" />
+          <label for="">Technical Team Lead</label>
+        </div>
+      </div>
+
+      <div>
+        <h3>Select school of choice to start learning how to code</h3>
+        <select>
+          <option ">Marusoft Academy</option>
+          <option value="Marusovalue="Marusoft Academyft Academy">Alimi Academy</option>
+          <option value="Marusoft Academy">Marusoft Coding</option>
+          <option value="Marusoft Academy">Kehinde Academy</option>
+          <option value="Marusoft Academy">Kezman Academy</option>
+          <option value="Marusoft Academy">Lollipop Academy</option>
+          <option value="Marusoft Academy">Icode Academy</option>
+          <option value="Marusoft Academy">Moyo Academy</option>
+          <option value="Marusoft Academy">Aliyah Academy</option>
+          <option value="Marusoft Academy">Nini Academy</option>
+          <option value="Marusoft Academy">Lolade Academy</option>
+          <option value="Marusoft Academy">Zenithal Academy</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="submit">Send Info</button>
+      </div>
+      <div>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <!-- form -->
+
+    <!-- HTML Table -->
+    <div>
+      <h3>School Admission Table</h3>
+      <table>
+      <tr>
+        <th>Admission number</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>State</th>
+        <th>Department</th>
+        <th>Faculty</th>
+      </tr>
+      <tr>
+        <td>m121</td>
+        <td>Kehinde</td>
+        <td>Marusoft</td>
+        <td>Ogun</td>
+        <td>Frontend Engineering</td>
+        <td>Software Engineering</td>
+      </tr>
+      <tr>
+        <td>m122</td>
+        <td>Aliyah</td>
+        <td>Orenuga</td>
+        <td>Osun</td>
+        <td>Backend Engineering</td>
+        <td>Software Engineering</td>
+      </tr>
+      <tr>
+        <td>m123</td>
+        <td>Barakat</td>
+        <td>Abdul</td>
+        <td>Ogun</td>
+        <td>Product design</td>
+        <td>Software Engineering</td>
+      </tr>
+      <tr>
+        <td>m124</td>
+        <td>Aliyah</td>
+        <td>Ololade</td>
+        <td>Oyo</td>
+        <td>Data Analysis</td>
+        <td>Software Engineering</td>
+      </tr>
+    </table>
+    </div>
+    <!-- HTML Table -->
+
   </body>
 </html>
